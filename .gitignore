@@ -1,0 +1,9 @@
+node_modules/
+cache/
+artifacts/
+out/
+.env
+
+deployed.json
+public/default.sol
+public/eventsABI.json
