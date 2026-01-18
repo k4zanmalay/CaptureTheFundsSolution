@@ -33,7 +33,7 @@ These functions are used directly in delta tracking:
 ```
 Allowing a wrapped negative value here enables manipulation of internal accounting.
 
-3. NISC token skips balance updates on self-transfers:
+2. NISC token skips balance updates on self-transfers:
 ```solidity
     function _update(address from, address to, uint256 value) internal override {
         if (from == to) {
